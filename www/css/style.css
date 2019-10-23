@@ -1,4 +1,4 @@
-/*@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 /* @import url('https://fonts.googleapis.com/css?family=Turret+Road&display=swap'); */
 
 body {
@@ -48,10 +48,11 @@ h1 {
 }
 
 .phone {
-  flex-basis: 15%;
+  flex-grow: 2;
+  flex-basis: 10%;
 }
 
-.email {
+.email {  
   flex-grow: 2;
   flex-basis: 15%;
 }
@@ -76,13 +77,6 @@ h1 {
   cursor: pointer;
 }
 
-#searchContact {
-  flex-basis: 10%;
-  margin-bottom: 15px;
-  padding: 20px;
-  border: 3px;
-}
-
 #newPersonModal {
   width: 700px;
   padding: 10px;
@@ -103,6 +97,9 @@ h1 {
   width: 80%;
 }
 
+.newPersonNameLabel{
+  display: block;
+}
 .input-err {
   background-color: rgb(196, 192, 192);
 }
@@ -126,12 +123,6 @@ h1 {
   background-color: rgb(216, 58, 19);
 }
 
-#searchContactBtn {
-  background-color: rgba(145, 215, 236, 0.8);
-  margin-bottom: 15px;
-  margin-top: 0;
-  margin-left: 0;
-}
 button {
   padding: 15px;
   border-radius: 5px;
