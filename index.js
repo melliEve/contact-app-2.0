@@ -8,7 +8,7 @@ const app = express();
 // from the www folder
 app.use(express.static('www'));
 // Start the web server on port 3000
-app.listen(3000,() => console.log('Listening on port 3000'));
+app.listen(3003,() => console.log('Listening on port 3003'));
 
 // Serve the index page everywhere so that the
 // frontend router can decide what to do
